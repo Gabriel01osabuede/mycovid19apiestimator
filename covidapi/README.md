@@ -33,7 +33,7 @@ Accepts a get request
 
 To get the logs ==> (127.0.0.1/v1/on-covid-19/log) 
 
-So basically what the repo does is that when you get it all setup you use site such as postman to access the endpoints. Some of the endpoint in there is (127.0.0.1/v1/on-covid-19/json) which accepts a post request of a particular data format which is the the json format so here is a preview of the format you would input.
+So basically what the repo does is that when you get it all setup you use site such as postman to access the endpoints. Some of the endpoint in there is (127.0.0.1/v1/on-covid-19/json) which accepts a post request of a particular data format which is in the json format so here is a preview of the format you would input.
 
 {
 region: {
