@@ -1,15 +1,18 @@
 import dicttoxml
 import time
 from django.shortcuts import render
+from rest_framework.parsers import JSONParser
 from django.http import HttpResponse,JsonResponse
 from .function.estimator import estimator
 from  django.views.decorators.http import require_http_methods
 from  django.views.decorators.csrf import  csrf_exempt
 import json
 
-
 # Create your views here.
 FILENAME='log.txt'
+
+
+
 
 @csrf_exempt
 @require_http_methods(['POST'])
@@ -22,6 +25,7 @@ def estimatorJson(request):
 @csrf_exempt
 @require_http_methods(['POST'])
 def estimatorXml(request):
+
     dic_data=json.loads(request.body)
     data=estimator(dic_data)
     xml=dicttoxml.dicttoxml(data,custom_root ='estimator')

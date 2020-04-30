@@ -7,3 +7,4 @@ urlpatterns = [
     path('xml', views.estimatorXml),
     path('log', views.log)
 ]
+

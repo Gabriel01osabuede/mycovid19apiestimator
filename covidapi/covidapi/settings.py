@@ -25,7 +25,7 @@ SECRET_KEY = 'sd*4_&b8wqhd8yl4_dc_4u0w07jp1da1@79y^+e87sr8uzf9kg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['Andrewgabriel2020.pythonanywhere.com']
+# ALLOWED_HOSTS =  'http://127.0.0.1.8000/' #['Andrewgabriel2020.pythonanywhere.com']
 
 APPEND_SLASH = False
 
@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'covid'
+    'covid',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
