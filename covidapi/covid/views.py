@@ -11,9 +11,6 @@ import json
 # Create your views here.
 FILENAME='log.txt'
 
-
-
-
 @csrf_exempt
 @require_http_methods(['POST'])
 def estimatorJson(request):

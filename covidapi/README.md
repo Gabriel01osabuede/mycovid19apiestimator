@@ -12,6 +12,15 @@ We recommend working within a virtual environment whenever using python for proj
  
 DEPENDENCIES
 
+Once you have your virtual environmentn setup  and running install dependencies by running this code on ur terminal.
+
+    pip install -r requirements.txt  
+
+This would install all of the required packages we selected in the 
+requirements.txt file.
+
+KEY DEPENDENCIES
+
 Install django ==>
 django is a lightweight backend framework .Which is required to handle requests and responses.
 

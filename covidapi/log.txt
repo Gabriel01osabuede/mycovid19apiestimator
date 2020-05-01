@@ -83,3 +83,9 @@ GET     /api/v1/on-covid-19/log    200    0.004994630813598633MS
 GET     /api/v1/on-covid-19/json/    200    0.008991241455078125MS
 GET     /api/v1/on-covid-19/json/    200    0.00899052619934082MS
 GET     /api/v1/on-covid-19/json    200    0.017983198165893555MS
+POST     /api/v1/on-covi-19/xml    200    0.09591436386108398MS
+POST     /api/v1/on-covi-19/xml/    200    0.006988048553466797MS
+GET     /api/v1/on-covi-19/log/    200    0.017983436584472656MS
+GET     /api/v1/on-covid-19/log/    200    0.012988090515136719MS
+POST     /api/v1/on-covid-19/json    200    0.000997781753540039MS
+GET     /api/v1/on-covid-19/log    200    0.017983436584472656MS
